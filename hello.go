@@ -1,7 +1,13 @@
 package main
 
 import "fmt"
+import "github.com/woshijunfa/gotools"
 
 func main(){
-	fmt.Println("hello world")
+
+	info := "hello world"
+
+	fmt.Println(info)
+	fmt.Println(gotools.Reverse(info))
+
 }
